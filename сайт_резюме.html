@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<title>Волков Иван — сайт-резюме</title>
+<script src="tailwind.js"></script>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+<header class="sticky top-0 z-50 bg-white/90 backdrop-blur border-b border-slate-200">
+  <div class="max-w-5xl mx-auto px-6 h-16 flex items-center justify-between">
+    <a href="#" class="font-bold text-lg text-sky-700">volkov.resume</a>
+    <nav class="hidden sm:flex gap-6 text-sm font-medium">
+      <a href="#about" class="hover:text-sky-600 transition">Обо мне</a>
+      <a href="#education" class="hover:text-sky-600 transition">Образование</a>
+      <a href="#skills" class="hover:text-sky-600 transition">Навыки</a>
+      <a href="#contact" class="hover:text-sky-600 transition">Контакты</a>
+    </nav>
+    <a href="#contact" class="bg-sky-600 hover:bg-sky-700 text-white text-sm font-semibold px-4 py-2 rounded-full transition shadow-sm">Написать мне</a>
+  </div>
+</header>
+
+<section class="bg-gradient-to-b from-sky-50 to-slate-50">
+  <div class="max-w-5xl mx-auto px-6 py-16 grid sm:grid-cols-[auto_1fr] gap-10 items-center">
+    <img src="foto.jpg" alt="Фото Волкова Ивана" class="w-48 h-60 object-cover rounded-2xl ring-4 ring-white shadow-xl">
+    <div>
+      <p class="text-sky-600 font-semibold tracking-wide uppercase text-sm">Сайт-визитка</p>
+      <h1 class="text-4xl sm:text-5xl font-extrabold mt-2">Волков Иван Николаевич</h1>
+      <p class="text-xl text-slate-600 mt-3">Fullstack-разработчик веб-сайтов • студент КГТУ</p>
+      <p class="mt-4 max-w-xl text-slate-600 leading-relaxed">Создаю веб-сайты полностью: вёрстка, фронтенд, бэкенд и базы данных. Работал в IT-отделе Cibirland, участвую в хакатонах, веду код на GitHub.</p>
+      <div class="mt-6 flex flex-wrap gap-3">
+        <a href="#skills" class="bg-sky-600 hover:bg-sky-700 text-white font-semibold px-5 py-2.5 rounded-full transition shadow">Мои навыки</a>
+        <a href="#education" class="bg-white hover:bg-slate-100 border border-slate-300 font-semibold px-5 py-2.5 rounded-full transition">Образование</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="about" class="max-w-5xl mx-auto px-6 py-14">
+  <h2 class="text-2xl font-bold mb-6">Обо мне</h2>
+  <div class="grid sm:grid-cols-3 gap-5">
+    <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm">
+      <div class="text-3xl">🎓</div>
+      <h3 class="font-semibold mt-3">Студент</h3>
+      <p class="text-sm text-slate-600 mt-1">КГТУ (2023–2027), «Информационные системы и технологии» + диплом ЛЭТИ о повышении квалификации.</p>
+    </div>
+    <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm">
+      <div class="text-3xl">💻</div>
+      <h3 class="font-semibold mt-3">Разработчик</h3>
+      <p class="text-sm text-slate-600 mt-1">HTML, CSS, JavaScript, PHP, Python; MySQL и PostgreSQL; Docker, Git, GitHub, Linux.</p>
+    </div>
+    <div class="bg-white rounded-2xl border border-slate-200 p-6 shadow-sm">
+      <div class="text-3xl">🏆</div>
+      <h3 class="font-semibold mt-3">Хакатоны</h3>
+      <p class="text-sm text-slate-600 mt-1">Участник хакатонов от ЛЭТИ и IT-направления (2023, 2024).</p>
+    </div>
+  </div>
+</section>
+
+<section id="education" class="max-w-5xl mx-auto px-6 py-14 border-t border-slate-200">
+  <h2 class="text-2xl font-bold mb-8">Образование и опыт</h2>
+  <ol class="relative border-l-2 border-sky-200 ml-3 space-y-8">
+    <li class="pl-8 relative">
+      <span class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-sky-600 ring-4 ring-sky-100"></span>
+      <p class="text-sm text-slate-500 font-medium">2023 — 2027 (учусь в процессе)</p>
+      <h3 class="font-semibold text-lg">КГТУ, г. Калининград</h3>
+      <p class="text-slate-600 text-sm">«Информационные системы и технологии», кафедра информационных систем.</p>
+    </li>
+    <li class="pl-8 relative">
+      <span class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-sky-600 ring-4 ring-sky-100"></span>
+      <p class="text-sm text-slate-500 font-medium">Июнь 2022 — август 2023</p>
+      <h3 class="font-semibold text-lg">ООО «Cibirland» — практика, стажёр-разработчик</h3>
+      <p class="text-slate-600 text-sm">Разработка веб-приложений, работа с базами данных, вёрстка интерфейсов, контроль версий Git.</p>
+    </li>
+    <li class="pl-8 relative">
+      <span class="absolute -left-[9px] top-1 w-4 h-4 rounded-full bg-sky-600 ring-4 ring-sky-100"></span>
+      <p class="text-sm text-slate-500 font-medium">2019 — 2023</p>
+      <h3 class="font-semibold text-lg">КМРК, г. Калининград</h3>
+      <p class="text-slate-600 text-sm">Физико-математический профиль. Параллельно с КГТУ — диплом ЛЭТИ о повышении квалификации (2024–2025).</p>
+    </li>
+  </ol>
+</section>
+
+<section id="skills" class="max-w-5xl mx-auto px-6 py-14 border-t border-slate-200">
+  <h2 class="text-2xl font-bold mb-6">Навыки и качества</h2>
+  <div class="flex flex-wrap gap-2.5">
+    <span class="bg-sky-100 text-sky-800 font-medium px-4 py-1.5 rounded-full text-sm">HTML</span>
+    <span class="bg-sky-100 text-sky-800 font-medium px-4 py-1.5 rounded-full text-sm">CSS</span>
+    <span class="bg-indigo-100 text-indigo-800 font-medium px-4 py-1.5 rounded-full text-sm">JavaScript</span>
+    <span class="bg-indigo-100 text-indigo-800 font-medium px-4 py-1.5 rounded-full text-sm">Python</span>
+    <span class="bg-indigo-100 text-indigo-800 font-medium px-4 py-1.5 rounded-full text-sm">SQL (MySQL, PostgreSQL)</span>
+    <span class="bg-amber-100 text-amber-800 font-medium px-4 py-1.5 rounded-full text-sm">Git, GitHub</span>
+    <span class="bg-amber-100 text-amber-800 font-medium px-4 py-1.5 rounded-full text-sm">PHP</span>
+    <span class="bg-emerald-100 text-emerald-800 font-medium px-4 py-1.5 rounded-full text-sm">Коммуникабельный</span>
+    <span class="bg-emerald-100 text-emerald-800 font-medium px-4 py-1.5 rounded-full text-sm">Docker, Linux</span>
+    <span class="bg-emerald-100 text-emerald-800 font-medium px-4 py-1.5 rounded-full text-sm">Нацелен на результат</span>
+  </div>
+</section>
+
+<section id="contact" class="max-w-5xl mx-auto px-6 py-14 border-t border-slate-200">
+  <h2 class="text-2xl font-bold mb-6">Контакты</h2>
+  <div class="bg-sky-600 rounded-3xl p-8 sm:p-10 text-white shadow-lg">
+    <p class="text-lg font-medium">Готов обсудить стажировку, вакансию или совместный веб-проект!</p>
+    <div class="mt-5 flex flex-wrap gap-x-10 gap-y-3 text-sky-100">
+      <span>📧 hikiasi@mail.ru</span>
+      <span>📱 +7 (996) 522-99-61</span>
+      <span>📍 г. Калининград</span>
+      <a href="https://www.klgtu.ru" target="_blank" class="underline hover:text-white">www.klgtu.ru</a>
+    </div>
+  </div>
+</section>
+
+<footer class="border-t border-slate-200 py-8 text-center text-sm text-slate-500">
+  © 2026 Волков Иван Николаевич • Сайт создан в конструкторе Tilda Publishing
+</footer>
+
+</body>
+</html>
